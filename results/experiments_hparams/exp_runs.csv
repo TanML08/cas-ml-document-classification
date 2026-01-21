@@ -1,0 +1,6 @@
+run_name,model,epochs,max_length,learning_rate,batch_size,train_time_sec,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall
+baseline_logreg,tfidf+logreg,,,,,2.31,0.991,0.9912,,
+bert_base_e2_len128,bert-base-uncased,2.0,128.0,2e-05,16.0,16.57,0.9888,0.9892,0.989,0.9894
+bert_base_e3_len128,bert-base-uncased,3.0,128.0,2e-05,16.0,24.14,0.9955,0.9957,0.9957,0.9957
+bert_base_e2_len256,bert-base-uncased,2.0,256.0,2e-05,16.0,28.6,0.9888,0.9889,0.9885,0.9894
+distilbert_e3_len128,distilbert-base-uncased,3.0,128.0,2e-05,16.0,13.29,0.982,0.9823,0.9814,0.9835
