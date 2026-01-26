@@ -1,6 +1,10 @@
-run_name,model,epochs,max_length,learning_rate,batch_size,train_time_sec,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall
-baseline_logreg,tfidf+logreg,,,,,2.31,0.991,0.9912,,
-bert_base_e2_len128,bert-base-uncased,2.0,128.0,2e-05,16.0,16.57,0.9888,0.9892,0.989,0.9894
-bert_base_e3_len128,bert-base-uncased,3.0,128.0,2e-05,16.0,24.14,0.9955,0.9957,0.9957,0.9957
-bert_base_e2_len256,bert-base-uncased,2.0,256.0,2e-05,16.0,28.6,0.9888,0.9889,0.9885,0.9894
-distilbert_e3_len128,distilbert-base-uncased,3.0,128.0,2e-05,16.0,13.29,0.982,0.9823,0.9814,0.9835
+run_name,model,epochs,max_length,learning_rate,batch_size,train_time_sec,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall
+baseline_logreg,tfidf+logreg,,,,,2.22,0.9821,0.9817,0.991,0.9912,,
+bert_base_e2_len128,bert-base-uncased,2.0,128.0,2e-05,16.0,16.06,0.9865,0.9868,0.9865,0.9863,0.9866,0.9866
+bert_base_e3_len128,bert-base-uncased,3.0,128.0,2e-05,16.0,23.3,0.9776,0.9772,0.991,0.9913,0.9925,0.9905
+bert_base_e2_len256,bert-base-uncased,2.0,256.0,2e-05,16.0,27.72,0.9776,0.979,0.9865,0.9864,0.986,0.9874
+bert_base_e3_len256,bert-base-uncased,3.0,256.0,2e-05,16.0,41.22,0.9821,0.9818,0.991,0.9907,0.9905,0.9913
+distilbert_e2_len128,distilbert-base-uncased,2.0,128.0,2e-05,16.0,8.75,0.9686,0.9671,0.9776,0.978,0.9789,0.9779
+distilbert_e3_len128,distilbert-base-uncased,3.0,128.0,2e-05,16.0,13.01,0.9821,0.9816,0.9776,0.9779,0.9786,0.9779
+distilbert_e2_len256,distilbert-base-uncased,2.0,256.0,2e-05,16.0,16.39,0.9686,0.9683,0.9821,0.9824,0.9826,0.9826
+distilbert_e3_len256,distilbert-base-uncased,3.0,256.0,2e-05,16.0,24.43,0.9776,0.9778,0.9776,0.9778,0.9775,0.9787

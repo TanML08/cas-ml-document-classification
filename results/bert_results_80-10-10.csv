@@ -1,0 +1,2 @@
+model,split,train_size,val_size,test_size,val_accuracy,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall,training_time_min,max_len,epochs,learning_rate
+BERT (bert-base-uncased),80-10-10,1780,222,223,0.9864864864864865,0.9820627802690582,0.9824710471672706,0.9817886178861789,0.9843137254901961,0.78,256,3,2e-05

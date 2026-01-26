@@ -1,0 +1,2 @@
+model,n_splits,acc_mean,acc_std,mf1_mean,mf1_std,total_time_sec,time_per_fold_sec
+TF-IDF + LogReg,5,0.9793258426966294,0.008008327946609195,0.9790144063165613,0.008175653511108985,10.223946809768677,2.044

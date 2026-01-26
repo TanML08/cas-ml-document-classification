@@ -1,0 +1,2 @@
+model,split,train_size,val_size,test_size,val_accuracy,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall,training_time_min,max_len,epochs,learning_rate
+DistilBERT (distilbert-base-uncased),60-20-20,1335,445,445,0.9797752808988764,0.9865168539325843,0.9868283653762202,0.9863600464576073,0.9873949579831933,0.39,256,3,2e-05

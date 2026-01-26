@@ -1,0 +1,2 @@
+model,split,train_size,val_size,test_size,val_accuracy,test_accuracy,test_macro_f1,test_macro_precision,test_macro_recall,best_params
+TF-IDF + LogReg,60-20-20,1335,445,445,0.9797752808988764,0.9820224719101124,0.9820644005869406,0.9822043895144981,0.982093837535014,"{'logreg__C': 1.0, 'tfidf__max_features': 30000, 'tfidf__ngram_range': (1, 2)}"
