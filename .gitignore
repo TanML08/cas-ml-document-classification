@@ -11,6 +11,7 @@ __pycache__/
 # Large model files (too big for Git, sync via OneDrive/Google Drive instead)
 results/**/checkpoint-*/
 results/**/best_model/
+results/**/tmp_*/
 results/**/*.bin
 results/**/*.pt
 results/**/*.pth
